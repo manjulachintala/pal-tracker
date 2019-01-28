@@ -2,7 +2,7 @@ applications:
 - name: pal-tracker
   path: src/PalTracker/bin/Release/netcoreapp2.1/publish/
   routes: 
-  - route: pal-tracker-manju-0128.apps.evans.pal.pivotal.io
+  - route: pal-tracker-manju-0128-prod.apps.evans.pal.pivotal.io
   env:
     WELCOME_MESSAGE: Hello from Cloud Foundry
   
